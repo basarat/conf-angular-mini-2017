@@ -1,8 +1,0 @@
-{
-  "compileOnSave": false,
-  "compilerOptions": {
-    "lib": [
-      "dom", "es6"
-    ]
-  }
-}
