@@ -15,7 +15,7 @@ const p2 = new Point(10, 20);
 
 const p3 = p1.add(p2); // {x:10,y:30}
 
-console.log(JSON.stringify(p3));
+console.log(p3);
 
 /** Module */
 export { Point };
