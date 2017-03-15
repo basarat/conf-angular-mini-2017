@@ -1,7 +1,8 @@
 function Person(age) {
     this.age = age
-    this.growOld = () => {
-        this.age++;
+    const self = this;
+    this.growOld = function() {
+        self.age++;
     }
 }
 const person = new Person(1);
