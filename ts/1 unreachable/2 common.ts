@@ -1,6 +1,6 @@
 function foo() {
   return 
-    "Hello world";
+    // "Hello world"; // ERROR : unreachable code
 }
 
 /** Module */

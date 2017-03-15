@@ -1,7 +1,7 @@
 function foo() {
   while (true) {
   }
-  console.log('hey');
+  // console.log('hey');
 }
 
 /** Module */
