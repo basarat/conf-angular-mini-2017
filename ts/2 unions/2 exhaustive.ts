@@ -16,7 +16,7 @@ interface Circle {
     radius: number;
 }
 
-type Shape = Square | Rectangle;
+type Shape = Square | Rectangle /*| Circle*/; // ERROR
 
 function area(s: Shape) {
   if (s.kind === "square") {
