@@ -1,5 +1,3 @@
-Object.defineProperty(window, "MySweetApp", { value: "v1.0.0", readonly: false });
-
 function deliveryMethod() {
   // TODO
   return "overnight";
